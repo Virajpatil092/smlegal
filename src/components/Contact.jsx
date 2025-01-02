@@ -118,10 +118,10 @@ const Contact = () => {
             transition={{ duration: 0.5 }}
             className="md:w-1/2 space-y-6 container mx-auto"
           >
-            <div className="relative w-full h-0 pb-[56.25%]"> 
+            <div className="relative w-full h-0 pb-[56.25%]">
               <iframe
                 className="rounded-3xl absolute top-0 left-0 w-full h-full"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.4226201141732!2d-122.01121197363979!3d37.33250218751264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb596e9e188fd%3A0x3b0d8391510688f0!2sApple%20Park!5e0!3m2!1sen!2sin!4v1735318564829!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0647526355774!2d73.84735097588262!3d18.525975769007772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c16d1f2a59af%3A0xd45f4499c29853cc!2sAdv.Shashikant%20M%20Mane%20-%20The%20Legal%20Services!5e0!3m2!1sen!2sin!4v1735710772304!5m2!1sen!2sin"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
