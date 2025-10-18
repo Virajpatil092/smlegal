@@ -70,8 +70,8 @@ const Contact = () => {
         {/* Content */}
         <div className="relative text-white text-center px-4 py-16 md:py-24">
           <h2 className="font-extrabold text-3xl md:text-7xl w-auto mb-10">Contact Us</h2>
-          <p className="text-sm md:text-xl mb-4 md:mb-8 mt-2 font-brown text-center max-w-lg mx-auto break-words">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae perspiciatis inventore modi et id, ipsum a aperiam repellendus rem praesentium.
+          <p className="text-sm md:text-xl mb-4 md:mb-8 mt-2 font-brown text-center max-w-lg mx-auto">
+          Your trusted partner for expert legal solutions with a commitment to transparency and confidentiality. Reach out to us for personalized legal support.
           </p>
 
           <div className="flex flex-col space-y-8 md:flex-row md:space-y-0 items-center justify-around mt-12 md:mt-36">
@@ -80,28 +80,28 @@ const Contact = () => {
                 <FaMapMarkerAlt size={32} />
               </div>
               <p className="my-2 text-lg md:my-4 md:text-2xl font-bold">Our Office</p>
-              <p className="text-sm md:text-base">9016 Goldfield Street<br />South Richmond Hill, New York 11419</p>
+              <p className="text-sm md:text-base">Office no-15, Barve Memorial Complex <br/> Opp to Panchali veg Hotel, J M Road, Pune</p>
             </span>
             <span className="flex flex-col items-center">
               <div className="p-3 md:p-4 rounded-full text-gold">
                 <FaEnvelope size={32} />
               </div>
               <p className="my-2 text-lg md:my-4 md:text-2xl font-bold">Email address</p>
-              <p className="text-sm md:text-base">example@gmail.com<br />info@gmail.com</p>
+              <p className="text-sm md:text-base">smlegal06@gmail.com<br />Shashikant_mane98@yahoo.com</p>
             </span>
             <span className="flex flex-col items-center">
               <div className="p-3 md:p-4 rounded-full text-gold">
                 <FaClock size={32} />
               </div>
               <p className="my-2 text-lg md:my-4 md:text-2xl font-bold">Open Hours</p>
-              <p className="text-sm md:text-base">Monday-Saturday 8 am – 6pm<br />Sunday 11am – 4pm</p>
+              <p className="text-sm md:text-base">Monday-Saturday 10 am – 6pm</p>
             </span>
             <span className="flex flex-col items-center">
               <div className="p-3 md:p-4 rounded-full text-gold">
                 <FaPhone size={32} />
               </div>
               <p className="my-2 text-lg md:my-4 md:text-2xl font-bold">Phone Number</p>
-              <p className="text-sm md:text-base">+(123) 456 789<br />+(123) 456 789</p>
+              <p className="text-sm md:text-base">+91 9823032181</p>
             </span>
           </div>
         </div>
@@ -140,7 +140,7 @@ const Contact = () => {
           >
             <h2 className="text-4xl font-semibold mb-4">Send Us a Message</h2>
             <p className="text-gray-600 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi.
+              We are here to help you with all your legal needs. Please fill out the form below and we will get back to you as soon as possible.
             </p>
             <form>
               <div className="mb-4">

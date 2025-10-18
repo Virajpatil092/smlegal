@@ -72,7 +72,7 @@ const About = () => {
         <div className="relative text-white text-center px-4 py-16 md:py-24">
           <h2 className="font-extrabold text-3xl md:text-7xl w-auto mb-10">About Us</h2>
           <p className="text-sm md:text-xl mb-4 md:mb-8 mt-2 font-brown text-center max-w-lg mx-auto break-words">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae perspiciatis inventore modi et id, ipsum a aperiam repellendus rem praesentium.
+            SMLEGAL is a leading full-service law firm based in Pune, recognized for its excellence in client service and high-quality legal solutions.
           </p>
         </div>
       </div>
@@ -99,7 +99,7 @@ const About = () => {
               <FaRegClock size={40} />
             </div>
             <div>
-              <h2 className="text-2xl md:text-2xl font-bold text-left">Over 20 Years <br /> Experience</h2>
+              <h2 className="text-2xl md:text-2xl font-bold text-left">Over 15+ Years <br /> Experience</h2>
             </div>
           </div>
 
@@ -126,10 +126,9 @@ const About = () => {
           <div className="bg-gold rounded-full p-4 flex items-center justify-center w-16 h-16">
             <FaInfo className="text-white text-3xl" />
           </div>
-          <h3 className="text-xl font-semibold text-brown">Legal Information</h3>
+          <h3 className="text-xl font-semibold text-brown">Diverse Legal Solutions</h3>
           <p className="text-gray-600">
-            Etiam facilisis ligula nec velit posuere egestas. Nunc dictum lectus sem,
-            vel dignissim purus luctus quis.
+            SMLEGAL offers expert guidance in areas such as corporate law, taxation, dispute resolution, real estate, and more.
           </p>
         </motion.div>
 
@@ -144,10 +143,9 @@ const About = () => {
           <div className="bg-gold rounded-full p-4 flex items-center justify-center w-16 h-16">
             <FaComments className="text-white text-3xl" />
           </div>
-          <h3 className="text-xl font-semibold text-brown">Free Consultation</h3>
+          <h3 className="text-xl font-semibold text-brown">Client-Centric Approach</h3>
           <p className="text-gray-600">
-            Cras gravida bibendum dolor eu varius. Morbi fermentum velit nisl, eget
-            vehicula lorem sodales eget ipsum felis tristique.
+            We are committed to understanding your unique needs and delivering personalized legal solutions with transparency and dedication.
           </p>
         </motion.div>
 
@@ -162,10 +160,9 @@ const About = () => {
           <div className="bg-gold rounded-full p-4 flex items-center justify-center w-16 h-16">
             <FaCheckCircle className="text-white text-3xl" />
           </div>
-          <h3 className="text-xl font-semibold text-brown">Proven Results</h3>
+          <h3 className="text-xl font-semibold text-brown">Proven Track Record</h3>
           <p className="text-gray-600">
-            Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit
-            amet est euismod quam suspendisse potenti.
+            Our commitment to excellence has earned us recognition as a trusted partner for both domestic and international clients.
           </p>
         </motion.div>
       </div>
@@ -184,8 +181,7 @@ const About = () => {
             className="text-[#b2ccc4] md:w-1/2 space-y-6">
             <h2 className="text-4xl font-extrabold text-white mb-4">Schedule Your Private Consultation Now</h2>
             <p className="text-lg leading-relaxed mb-6">
-              Curabitur ac leo nunc, <span className="text-white">estibul et mauris vel ante</span> finibus maximus nec ut leo.
-              Integer consectetur ipsum <span className="text-white">velit aliquam</span> fringilla.
+              Contact SMLEGAL to experience top-tier legal services tailored to your needs. Let's navigate your legal challenges together.
             </p>
             {/* Info Items */}
             <div className="space-y-4">
@@ -193,23 +189,22 @@ const About = () => {
                 <FaMapMarkerAlt className="text-gold text-2xl mr-4" />
                 <div>
                   <h4 className="font-bold text-lg text-gold">Office</h4>
-                  <p className="text-base">9016 Goldfield StreetSouth Richmond Hill, New York 11419</p>
+                  <p className="text-base">Office no-15, Barve Memorial Complex, Opp to Panchali veg Hotel, J M Road, Pune</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <FaEnvelope className="text-gold text-2xl mr-4" />
                 <div>
                   <h4 className="font-bold text-lg text-gold">Contact</h4>
-                  <p className="text-base">example@gmail.com</p>
-                  <p className="text-base">info@gmail.com</p>
+                  <p className="text-base">smlegal06@gmail.com</p>
+                  <p className="text-base">Shashikant_mane98@yahoo.com</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <FaClock className="text-gold text-2xl mr-4" />
                 <div>
                   <h4 className="font-bold text-lg text-gold">Open Hours</h4>
-                  <p className="text-base">Monday-Saturday 8 am – 6 pm</p>
-                  <p className="text-base">Sunday 11 am – 4 pm</p>
+                  <p className="text-base">Monday - Saturday 10 am – 6 pm</p>
                 </div>
               </div>
             </div>
@@ -266,12 +261,15 @@ const About = () => {
                   onChange={handleSubject}
                 >
                   <option value="">Select Service</option>
-                  <option value="Insurance Law">Insurance Law</option>
-                  <option value="Criminal Law">Criminal Law</option>
                   <option value="Family Law">Family Law</option>
-                  <option value="Corporate Law">Corporate Law</option>
-                  <option value="Property Law">Property Law</option>
+                  <option value="immigration">Immigration</option>
+                  <option value="Consumer Law">Consumer Law</option>
                   <option value="Banking & Finance">Banking & Finance</option>
+                  <option value="Civil Law">Civil Law</option>
+                  <option value="Insurance Law">Insurance Law</option>
+                  <option value="Car Accident">Car Accident</option>
+                  <option value="Property Law">Property Law</option>
+                  <option value="Corporate Law">Corporate Law</option>
                 </select>
               </div>
             </div>

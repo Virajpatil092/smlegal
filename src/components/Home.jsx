@@ -299,32 +299,30 @@ const Home = () => {
             className="text-[#b2ccc4] md:w-1/2 space-y-6">
             <h2 className="text-4xl font-extrabold text-white mb-4">Schedule Your Private Consultation Now</h2>
             <p className="text-lg leading-relaxed mb-6">
-              Curabitur ac leo nunc, <span className="text-white">estibul et mauris vel ante</span> finibus maximus nec ut leo.
-              Integer consectetur ipsum <span className="text-white">velit aliquam</span> fringilla.
+              Contact SMLEGAL to experience top-tier legal services tailored to your needs. Let's navigate your legal challenges together.
             </p>
             {/* Info Items */}
             <div className="space-y-4">
               <div className="flex items-start">
-                <FaEnvelope className="text-gold text-2xl mr-4" />
-                <div>
-                  <h4 className="font-bold text-lg text-gold">Contact</h4>
-                  <p className="text-base">example@gmail.com</p>
-                  <p className="text-base">info@gmail.com</p>
-                </div>
-              </div>
-              <div className="flex items-start">
                 <FaMapMarkerAlt className="text-gold text-2xl mr-4" />
                 <div>
                   <h4 className="font-bold text-lg text-gold">Office</h4>
-                  <p className="text-base">9016 Goldfield StreetSouth Richmond Hill, New York 11419</p>
+                  <p className="text-base">Office no-15, Barve Memorial Complex, Opp to Panchali veg Hotel, J M Road, Pune</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <FaEnvelope className="text-gold text-2xl mr-4" />
+                <div>
+                  <h4 className="font-bold text-lg text-gold">Contact</h4>
+                  <p className="text-base">smlegal06@gmail.com</p>
+                  <p className="text-base">Shashikant_mane98@yahoo.com</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <FaClock className="text-gold text-2xl mr-4" />
                 <div>
                   <h4 className="font-bold text-lg text-gold">Open Hours</h4>
-                  <p className="text-base">Monday-Saturday 8 am – 6 pm</p>
-                  <p className="text-base">Sunday 11 am – 4 pm</p>
+                  <p className="text-base">Monday - Saturday 10 am – 6 pm</p>
                 </div>
               </div>
             </div>
@@ -381,12 +379,15 @@ const Home = () => {
                   onChange={handleSubject}
                 >
                   <option value="">Select Service</option>
-                  <option value="Insurance Law">Insurance Law</option>
-                  <option value="Criminal Law">Criminal Law</option>
                   <option value="Family Law">Family Law</option>
-                  <option value="Corporate Law">Corporate Law</option>
-                  <option value="Property Law">Property Law</option>
+                  <option value="immigration">Immigration</option>
+                  <option value="Consumer Law">Consumer Law</option>
                   <option value="Banking & Finance">Banking & Finance</option>
+                  <option value="Civil Law">Civil Law</option>
+                  <option value="Insurance Law">Insurance Law</option>
+                  <option value="Car Accident">Car Accident</option>
+                  <option value="Property Law">Property Law</option>
+                  <option value="Corporate Law">Corporate Law</option>
                 </select>
               </div>
             </div>
@@ -415,7 +416,6 @@ const Home = () => {
               REQUEST A QUOTE
             </button>
           </motion.div>
-
         </div>
 
       </div>

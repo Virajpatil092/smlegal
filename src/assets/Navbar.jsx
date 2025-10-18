@@ -31,7 +31,10 @@ const Navbar = () => {
   return (
     <nav className='bg-[#2c2c2c] text-white h-20 flex items-center justify-between px-8 md:px-16'>
       <div className='container mx-auto flex items-center justify-between'>
-        <div className='text-2xl font-bold'>logo here</div>
+      <div className='flex items-center'>
+          <img src='/logo.ico' alt='logo' className='mr-2' />
+          <span className='text-2xl font-bold'>SMLEGAL</span>
+        </div>
         <div className='hidden md:flex items-center space-x-14 text-lg'>
           <Link to='/' className={getLinkClass('/')}>{<FaHome />}Home</Link>
           <Link to='/about' className={getLinkClass('/about')}>{<TiGroup />}About</Link>
@@ -49,7 +52,7 @@ const Navbar = () => {
           <Link to='/' className={getLinkClass('/')}>Home</Link>
           <Link to='/about' className={getLinkClass('/about')}>About</Link>
           <Link to='/contact' className={getLinkClass('/contact')}>Contact</Link>
-          <button className='bg-gold text-white px-4 py-2 rounded-full' onClick={() => {handleDial()}}>9823032181</button>
+          <button className='bg-gold text-white px-4 py-2 rounded-full flex items-center gap-1' onClick={() => {handleDial()}}>{<MdOutlinePhone />}9823032181</button>
         </div>
       )}
     </nav>

@@ -14,10 +14,10 @@ const Footer = () => {
               <span className="text-gold">⚖️</span> SMLEGAL
             </h2>
             <p className="mt-4 leading-relaxed text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, quae.
+              SMLEGAL is a leading full-service law firm based in Pune, recognized for its excellence in client service and high-quality legal solutions.
             </p>
             <p className="mt-2 leading-relaxed text-gray-300">
-              Laudantium debitis velit, expedita nam excepturi dolores! Laborum quod quia velit.
+              Operating on a unique all-equity lockstep model, the firm emphasizes transparency, democracy, and meritocracy, delivering meticulous services in the best interests of its clients.
             </p>
           </div>
 
@@ -45,7 +45,7 @@ const Footer = () => {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Need a professional website? Contact me</h3>
+            <h3 className="text-lg font-semibold mb-4">Stay Connected</h3>
             <div className="flex items-center gap-4">
               <Link to="https://www.linkedin.com/in/viraj-patil-863b32255/" className="hover:text-gold transition-transform transform duration-200 hover:scale-110" title='LinkedIn'>
                 <FaLinkedin />
@@ -62,7 +62,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="mt-8 border-t border-white/10 pt-4 flex flex-col md:flex-row items-center justify-between text-sm space-y-4 md:space-y-0">
-          <p className="text-center md:text-left text-gray-400">Copyright © Viraj Patil</p>
+          <p className="text-center md:text-left text-gray-400">Copyright © SMLEGAL</p>
           <div className="flex items-center gap-4">
             <a href="/" className="hover:text-gold transition-colors duration-200">
               Terms & Conditions
